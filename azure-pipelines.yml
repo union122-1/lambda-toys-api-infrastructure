@@ -16,7 +16,7 @@ variables:
 steps:
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Azure subscription 1(eff48441-5a25-4cfc-a9f4-4aa40b5b4148)'
+    azureSubscription: 'Development(6355b7af-f097-4821-9990-f2ee6acf3342)'
     scriptType: 'pscore'
     scriptLocation: 'inlineScript'
     inlineScript: |
